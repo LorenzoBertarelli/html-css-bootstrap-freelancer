@@ -1,0 +1,61 @@
+header {
+    height: 50px;
+}
+
+.row {
+    border: 1px solid red;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* COLOR */
+
+.white {
+    color: white;
+}
+
+.grey {
+    color: gray;
+}
+
+.black {
+    color: black;
+}
+
+.color0 {
+    background-color: rgba(44, 62, 80, 1);
+}
+
+.color1 {
+    background-color: rgba(26, 188, 156, 1);
+}
+
+.color2 {
+    background-color: rgba(186, 75, 99, 1);
+}
+
+.color3 {
+    background-color: rgba(30, 164, 182, 1);
+}
+
+.color4 {
+    background-color: rgba(20, 15, 15, 1);
+}
+
+.color5 {
+    background-color: rgba(28, 131, 193, 1);
+}
+
+.color6 {
+    background-color: rgba(14, 56, 181, 1);
+}
+
+.color7 {
+    background-color: rgba(204, 178, 163, 1);
+}
+
+.color8 {
+    background-color: rgba(58, 84, 109, 1);
+}
