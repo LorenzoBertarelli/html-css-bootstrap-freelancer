@@ -18,18 +18,21 @@
 </head>
 <body>
     <!-- HEADER -->
-    <header>
-        <div class="container-md color0">
+    <header class="color1">
+        <div class="container-md">
             <div class="row d-flex align-items-center header">
-                <div class="col-6"><h6 class="white d-flex align-items-center">START BOOTSTRAP</h6></div>
-                <div class="col-6 d-flex justify-content-end">
-                    <i class="fa-solid fa-bars grey"></i>
-                    <!-- <ul class="d-flex list-style-type-none">
-                        <li>About</li>
-                        <li>About</li>
-                        <li>About</li>
-                    </ul> -->
+                <div class="col-6">
+                    <h6 class="white d-flex align-items-center">START BOOTSTRAP</h6>                
                 </div>
+                <div class="col-6 d-flex justify-content-end bar-header">
+                    <i class="fa-solid fa-bars grey logo-bar"></i>                    
+                    <ul class="white d-flex justify-content-end">
+                        <li class="list-header">PORTFOLIO</li>
+                        <li class="list-header">ABOUT</li>
+                        <li class="list-header">CONTACT</li>
+                    </ul>
+                </div>
+                </div> 
             </div>
         </div>
     </header>
@@ -38,62 +41,67 @@
     <!-- MAIN -->
     <main>
         <!-- PART 1 -->
-        <section class="container-md color1">
-            <div class="row white d-flex align-items-center">
-                <div class="col-12">
-                    <img src="img/avatar.svg" alt="">
-                    <h1>START BOOTSTRAP</h1>
-                    <i class="fa-solid fa-star"></i>
-                    <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
+        <section class="color2">
+            <div class="container-md">
+                <div class="row white align-items-center text-center">
+                    <div class="col-12">
+                        <img class="avatar" src="img/avatar.svg" alt="">
+                        <h1>START BOOTSTRAP</h1>
+                        <i class="fa-solid fa-star star"></i>
+                        <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
+                    </div>
                 </div>
             </div>
+            
         </section>
 
         <!-- PART 2 -->
         <section class="container-md">
-            <div class="row d-flex flex-column align-items-center">
+            <div class="row text-center gy-2">
                 <h2>PORTFOLIO</h2>
-                <i class="fa-solid fa-star"></i>
-                <div class="col-2 color2">
+                <i class="fa-solid fa-star star"></i>
+                <div class="col-12 col-md-6 col-lg-4">
                     <img src="img/cabin.png" alt="">
                 </div>
-                <div class="col-2 color3">
-                    sfsdf
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="img/cake.png" alt="">
                 </div>
-                <div class="col-2 color4">
-                    sfsdf
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="img/circus.png" alt="">
                 </div>
-                <div class="col-2 color5">
-                    sfsdf
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="img/game.png" alt="">
                 </div>
-                <div class="col-2 color6">
-                    sfsdf
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="img/safe.png" alt="">
                 </div>
-                <div class="col-2 color7">
-                    sfsdf
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="img/submarine.png" alt="">
                 </div>
             </div>
         </section>
 
         <!-- PART 3 -->
-        <section class="container-md color1">
-            <div class="row white d-flex flex-column align-items-center">
-                <h2>ABOUT</h2>
-                <i class="fa-solid fa-star"></i>
-                <div class="col-6">
-                    sfsdf
-                </div>
-                <div class="col-6">
-                    sfsdf
+        <section class="color2">
+            <div class="container-md">
+                <div class="row white text-center">
+                    <h2 class="about-title">ABOUT</h2>
+                    <i class="fa-solid fa-star star"></i>
+                    <div class="col-12 col-md-6 test-about text-start">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus expedita adipisci accusamus non quasi tempore eveniet quos velit, quibusdam doloribus illum alias. Laudantium exercitationem velit officia assumenda. Nulla, ullam tenetur.
+                    </div>
+                    <div class="col-12 col-md-6 test-about text-start">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique eos ut blanditiis, laudantium quasi minus id ad, omnis recusandae quam nesciunt explicabo nisi cum, sint debitis tenetur sed inventore autem?
+                    </div>            
                 </div>
             </div>
         </section>
 
         <!-- PART 4 -->
         <section class="container-md">
-            <div class="row d-flex align-items-center">
-                <h2>CONTACT ME</h2>
-                <i class="fa-solid fa-star"></i>
+            <div class="row">
+                <h2 class="text-center">CONTACT ME</h2>
+                <i class="fa-solid fa-star star text-center"></i>
                 <div class="col-12 ">
                     <ul >
                         <li>Name</li>
@@ -103,8 +111,9 @@
                         <li>Phone Number</li>
                         <hr>
                         <li>Message</li>
+                        <textarea rows='5' cols='70' name='areatesto'></textarea>
                         <hr>
-                        <li>Send</li>
+                        <li><button class="white color2 button">Send</button></li>
                     </ul>
                 </div>
             </div>
@@ -114,26 +123,37 @@
 
     <!-- FOOTER -->
     <footer>
-        <section class="container-md color8">
-            <div class="row white d-flex flex-column align-items-center">
-                <div class="col-4">
-                    Location
-                </div>
-                <div class="col-4">
-                    Location
-                </div>
-                <div class="col-4">
-                    Location
+        <section class="color3">
+            <div class="container-md">
+                <div class="row white text-center">
+                    <div class="col-12 col-md-4">
+                        <h6>LOCATION</h6>
+                        <p>2215 John Daniel Drive Clark, Mo 54243</p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <h6>AROUND THE WEB</h6>
+                        <span class="loghi"><i class="fa-brands fa-facebook-f"></i></span>
+                        <span class="loghi"><i class="fa-brands fa-google-plus-g"></i></span>
+                        <span class="loghi"><i class="fa-brands fa-twitter"></i></span>
+                        <span class="loghi"><i class="fa-brands fa-linkedin-in"></i></span>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <h6>ABOUT FREELANCER</h6>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="">Start Bootstrap</a>.</p>
+                    </div>               
                 </div>
             </div>
         </section>
 
-        <section class="container-md white color0">
-            <div class="row d-flex align-items-center">
-                <div class="col-12">
-                    Location
+        <section class="color1 footer">
+            <div class="container-md">
+                <div class="row white text-center align-items-center">
+                    <div class="col-12">
+                        <p>Copyright <i class="fa-regular fa-copyright"></i> Your Website 2019</p>
+                    </div>
                 </div>
             </div>
+
         </section>
     </footer>
     <!-- END FOOTER -->
