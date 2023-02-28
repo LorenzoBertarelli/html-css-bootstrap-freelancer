@@ -1,5 +1,13 @@
-.header {
+.ms_header {
     height: 100px;
+}
+
+.ms_container {
+    max-width: 991px;
+}
+
+.ms_button-header {
+    border: 1px solid white;
 }
 
 ul {
@@ -11,14 +19,13 @@ h2 {
 }
 
 .list-header {
-    padding: 0 20px;
+    padding: 0 0 0 20px;
 }
 
 img {
     height: 100%;
     width: 100%;
     border-radius: 20px;
-    padding: 10px 0;
 }
 
 .avatar {
@@ -28,10 +35,6 @@ img {
 .star {
     font-size: 2rem;
     padding: 20px 0;
-}
-
-hr {
-    width: 90%;
 }
 
 .loghi {
@@ -45,17 +48,52 @@ hr {
 }
 
 .test-about {
-    padding: 20px 50px;
+    padding: 20px 70px;
 }
 
-.button {
-    border: none;
-    border-radius: 10px;
-    padding: 10px 20px;
+.ms_border-placeholder {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+}
+
+.ms_text-message {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+} 
+
+.ms_button-download {
+    border: 1px solid white;
+    max-width: 20%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ms_button-download:hover {
+    border-color: white;
+}
+
+.ms_button-header:hover {
+    border-color: white;
+}
+
+.ms_button-send:hover {
+    color: white;
+    background-color: rgba(26, 188, 156, 1);
+    border-color: rgba(26, 188, 156, 1);
 }
 
 .footer {
     height: 50px;
+}
+
+.copyright {
+    margin-top: 10px;
 }
 
 /* COLOR */

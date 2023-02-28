@@ -20,12 +20,12 @@
     <!-- HEADER -->
     <header class="color1">
         <div class="container-md">
-            <div class="row d-flex align-items-center header">
+            <div class="row d-flex align-items-center ms_header">
                 <div class="col-6">
                     <h6 class="white d-flex align-items-center">START BOOTSTRAP</h6>                
                 </div>
                 <div class="col-6 d-flex justify-content-end bar-header">
-                    <i class="fa-solid fa-bars grey logo-bar"></i>                    
+                    <button type="button" class="btn grey ms_button-header logo-bar"><i class="fa-solid fa-bars grey logo-bar"></i></button>                                        
                     <ul class="white d-flex justify-content-end">
                         <li class="list-header">PORTFOLIO</li>
                         <li class="list-header">ABOUT</li>
@@ -44,7 +44,7 @@
         <section class="color2">
             <div class="container-md">
                 <div class="row white align-items-center text-center">
-                    <div class="col-12">
+                    <div class="col-12 py-5">
                         <img class="avatar" src="img/avatar.svg" alt="">
                         <h1>START BOOTSTRAP</h1>
                         <i class="fa-solid fa-star star"></i>
@@ -57,7 +57,7 @@
 
         <!-- PART 2 -->
         <section class="container-md">
-            <div class="row text-center gy-2">
+            <div class="row text-center py-5 g-3">
                 <h2>PORTFOLIO</h2>
                 <i class="fa-solid fa-star star"></i>
                 <div class="col-12 col-md-6 col-lg-4">
@@ -84,7 +84,7 @@
         <!-- PART 3 -->
         <section class="color2">
             <div class="container-md">
-                <div class="row white text-center">
+                <div class="row white text-center py-5">
                     <h2 class="about-title">ABOUT</h2>
                     <i class="fa-solid fa-star star"></i>
                     <div class="col-12 col-md-6 test-about text-start">
@@ -92,29 +92,37 @@
                     </div>
                     <div class="col-12 col-md-6 test-about text-start">
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique eos ut blanditiis, laudantium quasi minus id ad, omnis recusandae quam nesciunt explicabo nisi cum, sint debitis tenetur sed inventore autem?
-                    </div>            
+                    </div> 
+                    <button type="button" class="btn white ms_button-download">Download</button>           
                 </div>
             </div>
         </section>
 
         <!-- PART 4 -->
         <section class="container-md">
-            <div class="row">
+            <div class="row p-4">
                 <h2 class="text-center">CONTACT ME</h2>
                 <i class="fa-solid fa-star star text-center"></i>
-                <div class="col-12 ">
-                    <ul >
-                        <li>Name</li>
-                        <hr>
-                        <li>Email Address</li>
-                        <hr>
-                        <li>Phone Number</li>
-                        <hr>
-                        <li>Message</li>
-                        <textarea rows='5' cols='70' name='areatesto'></textarea>
-                        <hr>
-                        <li><button class="white color2 button">Send</button></li>
-                    </ul>
+                <div class="col-12">
+                    <form>
+                        <div>
+                            <label for="name" class="form-label">Name</label>
+                            <input type="name" class="form-control ms_border-placeholder" id="name" placeholder="Mario Rossi">
+                        </div>
+                        <div>
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control ms_border-placeholder" id="email" placeholder="mariorossi@.....com">
+                        </div>
+                        <div>
+                            <label for="Phone Number" class="form-label">Phone Number</label>
+                            <input type="Phone Number" class="form-control ms_border-placeholder" id="Phone Number" placeholder="000 123456">
+                        </div>
+                        <div class="mb-3">
+                            <label for="Textarea" class="form-label">Message</label>
+                            <textarea class="form-control ms_text-message" id="Textarea" rows="4"></textarea>
+                          </div>
+                    </form>
+                    <button type="submit" class="btn color2 white ms_button-send">Send</button>
                 </div>
             </div>
         </section>
@@ -125,7 +133,7 @@
     <footer>
         <section class="color3">
             <div class="container-md">
-                <div class="row white text-center">
+                <div class="row white text-center py-5">
                     <div class="col-12 col-md-4">
                         <h6>LOCATION</h6>
                         <p>2215 John Daniel Drive Clark, Mo 54243</p>
@@ -149,7 +157,7 @@
             <div class="container-md">
                 <div class="row white text-center align-items-center">
                     <div class="col-12">
-                        <p>Copyright <i class="fa-regular fa-copyright"></i> Your Website 2019</p>
+                        <p class="copyright">Copyright <i class="fa-regular fa-copyright"></i>Your Website 2019</p>
                     </div>
                 </div>
             </div>
