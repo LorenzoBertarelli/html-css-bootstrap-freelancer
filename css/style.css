@@ -34,7 +34,30 @@ img {
 
 .star {
     font-size: 2rem;
-    padding: 20px 0;
+}
+
+.star::after,
+.star::before {
+    content: '';
+    display: inline-block;
+    width: 10%;
+    height: 5px;
+    background-color: white;
+    vertical-align: middle;
+}
+
+.star-black {
+    font-size: 2rem;
+}
+
+.star-black::after,
+.star-black::before {
+    content: '';
+    display: inline-block;
+    width: 10%;
+    height: 5px;
+    background-color: black;
+    vertical-align: middle;
 }
 
 .loghi {
